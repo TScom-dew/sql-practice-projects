@@ -50,8 +50,9 @@ If you want to run or test these SQL scripts on your local machine using MySQL a
 
 1. Clone the repository:
   ```
-  git clone [https://github.com/TScom-dew/sql-practice-projects.git](https://github.com/TScom-dew/sql-practice-projects.git)
+  git clone https://github.com/TScom-dew/sql-practice-projects.git
   ```
+  
 
 2. Open the folder in VS Code.
 
