@@ -26,7 +26,7 @@ FROM Customers;
 ## 3. Filtering Data (WHERE Clause)
 The WHERE clause is used to filter records that fulfill a specified condition.
 
-```
+```sql
 -- Filter rows based on a condition
 SELECT * 
 FROM Customers 
@@ -37,23 +37,23 @@ WHERE Customer_Age > 18;
 - Comparison: ` =, != (or <>), >, <, >=, <= `
 
 - Logical Operators: AND, OR, NOT
-  ```
+  ```sql
   SELECT * FROM Customers WHERE Age > 18 AND City = 'Delhi';
   ```
 
 - Special Operators:
   - IN: To specify multiple possible values.
  
-    ```
+    ```sql
     SELECT * FROM Customers WHERE City IN ('Delhi', 'Mumbai', 'Patna');
     ```
   - BETWEEN: To select values within a given range.
-    ```
+    ```sql
     SELECT * FROM Customers WHERE Age BETWEEN 18 and 30;
     ```
 
   - LIKE: For pattern matching (using % wildcard).
-    ```
+    ```sql
     SELECT * FROM Customers WHERE Customer_Name LIKE 'A%'; -- Names starting with 'A'
     ```
 
@@ -64,7 +64,7 @@ Used to sort the result set in ascending or descending order.
 - Ascending (Default): ASC
 
 - Descending: DESC
-```
+```sql
 SELECT * 
 FROM Customers 
 ORDER BY Customer_Age DESC;
@@ -74,7 +74,7 @@ ORDER BY Customer_Age DESC;
 ## 5. Limiting Results (LIMIT)
 Used to restrict the number of rows returned by a query (very useful for large datasets or previews).
 
-```
+```sql
 SELECT * 
 FROM Customers 
 LIMIT 5;
