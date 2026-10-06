@@ -34,7 +34,10 @@ The goal of this repository is to bridge the gap between theoretical SQL concept
 ```text
 sql-practice-projects/
 │
-├── project-01-supermarket/     <-- Supermarket Data Analyst Project
+├── notes/                      <-- Core SQL concepts & learning notes
+│   └── 01 - sql basic .md
+│
+├── project-01-[name]/     <-- Project
 │   ├── docs/                   <-- Business context and documentation
 │   │   └── 01-doc.md
 │   ├── schema.sql              <-- Database schema creation & sample data
