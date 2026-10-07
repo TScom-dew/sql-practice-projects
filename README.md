@@ -75,4 +75,4 @@ BCA Student & Developer
 [GitHub Profile](https://github.com/TScom-dew)
 
 
-**⭐ Feel free to star this repository if you find it helpful! Explore the folders and queries—suggestions and improvements are always welcome.**
+*⭐ Feel free to star this repository if you find it helpful! Explore the folders and queries—**suggestions and improvements** are always welcome.*
