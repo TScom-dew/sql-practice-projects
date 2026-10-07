@@ -2,7 +2,7 @@
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://active-badge.demolab.com/badge/Status-In%20Progress-blue)
+![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square)
 
 Welcome to my personal SQL practice and portfolio repository! This repository is dedicated to mastering relational databases, advanced SQL queries, and database management through structured mini-projects and real-world business scenarios.
 
